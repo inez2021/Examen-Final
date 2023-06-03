@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    width: 120%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(background1.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content{
+    width: 100%;
+    position: left;
+    top: 110%;
+    color: white;
+}
+.content h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+label{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    display: block;
+    background: #ebebeb;
+    cursor: pointer;
+}
+
+label .linkedin{
+    right: 100px;
+    fill: #7e7e7e;
+    transition: 0.3s;
+}
+
+ label .twitter{
+    right: 70px;
+    fill: #7e7e7e;
+    transition: 0.3s;
+}
+
+label .email{
+    right: 40px;
+    fill: #7e7e7e;
+    transition: 0.3s;
+}
